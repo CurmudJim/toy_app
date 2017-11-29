@@ -9,6 +9,10 @@
   </head>
 
   <body>
+    <ul>
+      <li><%= link_to 'Home', users_path %></li>
+      <li><%= link_to 'Micropost', microposts_path %></li>
+    </ul>
     <%= yield %>
   </body>
 </html>
